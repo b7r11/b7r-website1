@@ -2,154 +2,121 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>بحر المطور - B7r Al-Developer</title>
+  <title>بحر - مطور ومُحسن بيئة السيرفرات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
   <style>
     body {
+      font-family: 'Cairo', sans-serif;
+      background: #f4f4f4;
+      color: #333;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #1e1e1e;
-      color: white;
-      overflow-x: hidden;
+      padding: 0;
+      text-align: center;
     }
 
     header {
-      background: linear-gradient(to bottom, #9b59b6 10%, transparent 100%);
-      padding: 50px 20px;
-      text-align: center;
-      font-size: 1.3em;
+      background-color: #4CAF50;
+      color: white;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
     }
 
     .container {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      padding: 40px 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 2rem;
+      gap: 1rem;
     }
 
-    .box {
-      background-color: #2c2c2c;
-      border-radius: 10px;
-      padding: 25px;
-      max-width: 500px;
-      width: 90%;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-      opacity: 0;
-      transform: translateY(30px);
-      animation: fadeInUp 0.8s ease forwards;
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
     }
 
-    .box:nth-child(1) { animation-delay: 0.3s; }
-    .box:nth-child(2) { animation-delay: 0.6s; }
-    .box:nth-child(3) { animation-delay: 0.9s; }
-    .box:nth-child(4) { animation-delay: 1.2s; }
-    .box:nth-child(5) { animation-delay: 1.5s; }
-    .box:nth-child(6) { animation-delay: 1.8s; }
-
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    .card:hover {
+      transform: scale(1.05);
     }
 
-    .box h3 {
-      margin-top: 0;
-      color: #9b59b6;
-      display: flex;
-      align-items: center;
-      gap: 10px;
+    .card h3 {
+      color: #4CAF50;
+      margin-bottom: 0.5rem;
     }
 
-    .box h3 img {
-      width: 24px;
-      height: 24px;
+    .card p {
+      margin: 0.3rem 0;
     }
 
-    .desc {
-      font-size: 0.9em;
-      line-height: 1.6;
+    .lang-icons img {
+      width: 40px;
+      height: 40px;
+      margin: 0 5px;
+      vertical-align: middle;
     }
 
-    .discord-link {
-      font-size: 1.2em;
-      text-align: center;
-      color: #7289da;
-      font-weight: bold;
-      direction: ltr;
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #eee;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <p>
-      أهلًا، أنا <strong>بحر المطور</strong>، مبرمج بوتات بعدة لغات، ومبرمج مواقع، وأيضًا مبرمج أدوات.<br>
-      أعمل على العديد من المشاريع، منها مشاريع 2050 لتوريد اليوزرات وغيرها من المشاريع التقنية.<br><br>
-      Hello, I’m <strong>B7r Al-Developer</strong>, a bot developer in multiple languages, a website programmer, and a tool developer.<br>
-      I work on many projects, including 2050 Username Supply Projects and other tech-related ventures.
-    </p>
-  </header>
+<header>
+  <h1>مرحبًا، أنا بحر</h1>
+  <p>أطمح لصناعة بيئة أفضل في كل سيرفر أكون فيه.</p>
+  <p><em>I aim to improve the environment of every server I own.</em></p>
+</header>
 
-  <div class="container">
-    <div class="box">
-      <h3>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS"> JavaScript
-      </h3>
-      <div class="desc">
-        أستخدم جافاسكربت في تطوير البوتات والأدوات.<br>
-        I use JavaScript for developing bots and tools.
-      </div>
-    </div>
+<div class="container">
+  <div class="card">
+    <h3>من أنا؟</h3>
+    <p>أنا بحر، شاب عمري 16 عامًا، شغوف بالتقنية والبرمجة.</p>
+    <p><em>I'm Baher, a 16-year-old passionate about technology and programming.</em></p>
+  </div>
 
-    <div class="box">
-      <h3>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"> Node.js
-      </h3>
-      <div class="desc">
-        أبني تطبيقات سيرفر باستخدام Node.js لإنشاء خدمات سريعة وقوية.<br>
-        I build server-side apps using Node.js for fast and powerful services.
-      </div>
-    </div>
+  <div class="card">
+    <h3>أهدافي</h3>
+    <p>أهدف لتحسين بيئة كل السيرفرات التي أمتلكها وأقدم تجربة أفضل للمستخدمين.</p>
+    <p><em>I aim to improve the environment of every server I own and provide a better user experience.</em></p>
+  </div>
 
-    <div class="box">
-      <h3>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"> Website (HTML)
-      </h3>
-      <div class="desc">
-        أنشئ مواقع تفاعلية وجذابة باستخدام HTML وCSS وJS.<br>
-        I create interactive and attractive websites using HTML, CSS, and JS.
-      </div>
-    </div>
+  <div class="card">
+    <h3>السيرفرات</h3>
+    <p>أنا الأونر في سيرفرات: 2050 و Aroa.</p>
+    <p><em>I'm the owner of the servers: 2050 and Aroa.</em></p>
+  </div>
 
-    <div class="box">
-      <h3>
-        <img src="https://cdn-icons-png.flaticon.com/512/1042/1042343.png" alt="Server" style="width:24px;"> Servers Owner
-      </h3>
-      <div class="desc">
-        أمتلك وأدير سيرفرات مختلفة لمشاريعي ومجتمعي التقني.<br>
-        I own and manage various servers for my projects and tech community.
-      </div>
-    </div>
-
-    <div class="box">
-      <h3>
-        <img src="https://cdn.discordapp.com/attachments/1362101548267864125/1380238219265708144/IMG_2095.png?ex=68432683&is=6841d503&hm=c2e5364fede6975b3e49f3e3343bc286e7e9e699ec86fe7e090cf9928b3bb069&" alt="Project" style="width:24px;"> 2050 Project
-      </h3>
-      <div class="desc">
-        مشروع لتوريد اليوزرات وتقديم خدمات تقنية احترافية.<br>
-        A project for supplying usernames and offering professional tech services.
-      </div>
-    </div>
-
-    <div class="box">
-      <h3>
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord"> Contact Me on Discord
-      </h3>
-      <p class="discord-link">3.3.8</p>
+  <div class="card">
+    <h3>المهارات</h3>
+    <p>أبرمج بلغات JavaScript و Python وأصمم مواقع باستخدام HTML.</p>
+    <p><em>I code using JavaScript and Python, and build websites using HTML.</em></p>
+    <div class="lang-icons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
     </div>
   </div>
+</div>
+
+<footer>
+  <p>استمر في التعلم، العالم بحاجة لأفكارك!</p>
+  <p><em>Keep learning, the world needs your ideas!</em></p>
+</footer>
 
 </body>
 </html>
