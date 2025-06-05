@@ -31,11 +31,18 @@
       font-size: 1.3rem;
     }
 
+    .section-divider {
+      width: 60%;
+      height: 2px;
+      background-color: #ccc;
+      margin: 2rem auto;
+    }
+
     .container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin: 3rem 2rem;
+      margin: 2rem 2rem;
       gap: 2rem;
     }
 
@@ -64,11 +71,27 @@
       line-height: 1.8;
     }
 
-    .lang-icons img {
-      width: 50px;
-      height: 50px;
-      margin: 10px 8px 0;
-      vertical-align: middle;
+    .lang-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 3rem 1rem;
+    }
+
+    .lang-box {
+      background-color: #000;
+      color: #fff;
+      padding: 1.2rem 1.5rem;
+      border-radius: 10px;
+      width: 160px;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .lang-box:hover {
+      transform: scale(1.05);
     }
 
     footer {
@@ -81,6 +104,7 @@
     footer p {
       margin: 0.3rem;
     }
+
   </style>
 </head>
 <body>
@@ -91,34 +115,62 @@
   <p><em>I believe that technology can improve everything when used with purpose.</em></p>
 </header>
 
+<!-- من أنا -->
 <div class="container">
   <div class="card" data-aos="fade-up" data-aos-delay="100">
     <h3>من أنا؟</h3>
-    <p>أنا بحر، أبلغ من العمر 16 عامًا، شغوف بمجال البرمجة، والتطوير، وإدارة المجتمعات الرقمية.</p>
-    <p><em>I'm Baher, 16 years old, passionate about coding, development, and community leadership.</em></p>
+    <p>أنا بحر، أبلغ من العمر 16 عامًا، شغوف بالبرمجة وتطوير الأنظمة، أعمل على تحسين المجتمعات الرقمية وتحقيق الأفضل دائمًا.</p>
+    <p><em>I'm Baher, 16 years old, passionate about development and digital spaces. Always aiming higher.</em></p>
   </div>
+</div>
 
+<div class="section-divider"></div>
+
+<!-- أهدافي -->
+<div class="container">
   <div class="card" data-aos="fade-up" data-aos-delay="200">
     <h3>أهدافي</h3>
-    <p>أسعى لبناء بيئات سيرفرات قوية، منظمة، وتدعم التعاون والاحترام بين جميع الأعضاء، مع تقديم أفضل تجربة ممكنة.</p>
-    <p><em>My goal is to build strong, organized server environments that support collaboration and respect for all users.</em></p>
+    <p>أسعى لبناء بيئات سيرفرات احترافية، آمنة، وتوفر تجربة ممتعة للمستخدمين. أؤمن بقوة المجتمعات وفاعلية التنظيم والإبداع التقني.</p>
+    <p><em>I aim to build safe, organized, and enjoyable server environments where creativity and community thrive.</em></p>
   </div>
+</div>
 
+<div class="section-divider"></div>
+
+<!-- مهاراتي التقنية -->
+<div class="container">
   <div class="card" data-aos="fade-up" data-aos-delay="300">
     <h3>مهاراتي التقنية</h3>
-    <p>أتقن JavaScript و Python، وأبني مواقع باستخدام HTML و CSS. أستخدم مكتبات مثل <strong>discord.js</strong> و<strong>discord.py</strong> والعديد غيرها لبناء بوتات احترافية وإدارة السيرفرات.</p>
-    <p><em>I code in JavaScript and Python, build websites using HTML & CSS, and use libraries like <strong>discord.js</strong> and <strong>discord.py</strong> for advanced Discord bot development.</em></p>
-    <div class="lang-icons">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
-    </div>
+    <p>أُتقن JavaScript و Python، وأبرمج باستخدام HTML و CSS. أستخدم مكتبات مثل <strong>discord.js</strong> و <strong>discord.py</strong> لتطوير بوتات متقدمة وأدوات إدارية.</p>
+    <p><em>I work with JavaScript, Python, HTML & CSS. I use <strong>discord.js</strong> and <strong>discord.py</strong> for bots and tools development.</em></p>
   </div>
+</div>
 
+<!-- السيرفرات -->
+<div class="container">
   <div class="card" data-aos="fade-up" data-aos-delay="400">
     <h3>السيرفرات التي أديرها</h3>
-    <p>أنا الأونر في عدة سيرفرات Discord احترافية مثل: <strong>2050</strong> و<strong>Aroa</strong>، وأعمل دائمًا على تطويرها لتكون بيئة مثالية للمجتمع.</p>
-    <p><em>I'm the owner of several professional Discord servers like <strong>2050</strong> and <strong>Aroa</strong>, always working to make them ideal community environments.</em></p>
+    <p>أنا الأونر في سيرفرات Discord احترافية تشمل <strong>2050</strong> و <strong>Aroa</strong>. أحرص على تطويرها باستمرار وتحقيق بيئة مثالية للمجتمع.</p>
+    <p><em>I’m the owner of professional Discord servers including <strong>2050</strong> and <strong>Aroa</strong>. I continuously improve them for the best community experience.</em></p>
+  </div>
+</div>
+
+<!-- لغاتي -->
+<div class="lang-grid" data-aos="fade-up" data-aos-delay="500">
+  <div class="lang-box">JavaScript</div>
+  <div class="lang-box">Python</div>
+  <div class="lang-box">HTML</div>
+  <div class="lang-box">CSS</div>
+  <div class="lang-box">discord.js</div>
+  <div class="lang-box">discord.py</div>
+</div>
+
+<!-- بائع خدمات -->
+<div class="container">
+  <div class="card" data-aos="fade-up" data-aos-delay="600">
+    <h3>بائع برمجيات و أدوات</h3>
+    <p>أقدم خدمات احترافية في تطوير المواقع، البوتات، الأدوات الخاصة، وتصميم الأنظمة حسب الطلب. جاهز للعمل مع أي فكرة إبداعية.</p>
+    <p><em>I provide professional services in websites, bots, tools, and custom systems. Ready to bring your creative idea to life.</em></p>
   </div>
 </div>
 
