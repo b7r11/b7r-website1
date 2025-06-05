@@ -4,73 +4,82 @@
   <meta charset="UTF-8">
   <title>بحر - مطور ومُحسن بيئة السيرفرات</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Cairo', sans-serif;
       background: #f4f4f4;
-      color: #333;
+      color: #fff;
       margin: 0;
       padding: 0;
       text-align: center;
     }
 
     header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 2rem 1rem;
+      background-color: #ADD8E6;
+      color: #000;
+      padding: 3rem 1rem;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
 
     header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
+      margin: 1rem 0 0;
+      font-size: 1.3rem;
     }
 
     .container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin: 2rem;
-      gap: 1rem;
+      margin: 3rem 2rem;
+      gap: 2rem;
     }
 
     .card {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 12px;
-      width: 300px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
+      background: #000;
+      color: #fff;
+      padding: 2rem;
+      border-radius: 15px;
+      width: 350px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
     }
 
     .card:hover {
-      transform: scale(1.05);
+      transform: scale(1.03);
     }
 
     .card h3 {
-      color: #4CAF50;
-      margin-bottom: 0.5rem;
+      color: #ffffff;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
     }
 
     .card p {
-      margin: 0.3rem 0;
+      font-size: 1.1rem;
+      line-height: 1.8;
     }
 
     .lang-icons img {
-      width: 40px;
-      height: 40px;
-      margin: 0 5px;
+      width: 50px;
+      height: 50px;
+      margin: 10px 8px 0;
       vertical-align: middle;
     }
 
     footer {
-      margin-top: 2rem;
-      padding: 1rem;
-      background-color: #eee;
+      background: #222;
+      color: #fff;
+      padding: 2rem 1rem;
+      font-size: 1.2rem;
+    }
+
+    footer p {
+      margin: 0.3rem;
     }
   </style>
 </head>
@@ -78,33 +87,33 @@
 
 <header>
   <h1>مرحبًا، أنا بحر</h1>
-  <p>أطمح لصناعة بيئة أفضل في كل سيرفر أكون فيه.</p>
-  <p><em>I aim to improve the environment of every server I own.</em></p>
+  <p>شاب طموح أؤمن بأن التقنية قادرة على تغيير كل شيء للأفضل.</p>
+  <p><em>I believe that technology can improve everything when used with purpose.</em></p>
 </header>
 
 <div class="container">
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-delay="100">
     <h3>من أنا؟</h3>
-    <p>أنا بحر، شاب عمري 16 عامًا، شغوف بالتقنية والبرمجة.</p>
-    <p><em>I'm Baher, a 16-year-old passionate about technology and programming.</em></p>
+    <p>أنا بحر، شاب أبلغ من العمر 16 عامًا، أتعلم وأسعى يوميًا لتطوير نفسي في مجالات البرمجة وإدارة المجتمعات الرقمية.</p>
+    <p><em>I'm Baher, a 16-year-old driven to grow daily in programming and digital community leadership.</em></p>
   </div>
 
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-delay="200">
     <h3>أهدافي</h3>
-    <p>أهدف لتحسين بيئة كل السيرفرات التي أمتلكها وأقدم تجربة أفضل للمستخدمين.</p>
-    <p><em>I aim to improve the environment of every server I own and provide a better user experience.</em></p>
+    <p>أسعى لبناء بيئات سيرفرات محترفة وآمنة، مليئة بالتعاون والاحترام، وتقديم أفضل تجربة للمستخدمين في كل مكان.</p>
+    <p><em>I strive to build safe, respectful, and high-quality server environments for everyone.</em></p>
   </div>
 
-  <div class="card">
-    <h3>السيرفرات</h3>
-    <p>أنا الأونر في سيرفرات: 2050 و Aroa.</p>
-    <p><em>I'm the owner of the servers: 2050 and Aroa.</em></p>
+  <div class="card" data-aos="fade-up" data-aos-delay="300">
+    <h3>السيرفرات التي أديرها</h3>
+    <p>أدير سيرفرات Discord احترافية مثل "2050" و"Aroa"، حيث أعمل على تطويرها باستمرار وتحسين أنظمتها.</p>
+    <p><em>I manage high-quality Discord servers like "2050" and "Aroa", continuously improving and upgrading them.</em></p>
   </div>
 
-  <div class="card">
-    <h3>المهارات</h3>
-    <p>أبرمج بلغات JavaScript و Python وأصمم مواقع باستخدام HTML.</p>
-    <p><em>I code using JavaScript and Python, and build websites using HTML.</em></p>
+  <div class="card" data-aos="fade-up" data-aos-delay="400">
+    <h3>مهاراتي التقنية</h3>
+    <p>أتقن JavaScript و Python وأمتلك خبرة في تطوير واجهات الويب باستخدام HTML وCSS، وأسعى دائمًا لتعلم المزيد.</p>
+    <p><em>I code in JavaScript and Python, and build clean websites using HTML & CSS. Always learning more.</em></p>
     <div class="lang-icons">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
@@ -114,9 +123,18 @@
 </div>
 
 <footer>
-  <p>استمر في التعلم، العالم بحاجة لأفكارك!</p>
+  <p>📬 للتواصل مع بحر على ديسكورد: <strong>3.3.8</strong></p>
+  <p>استمر في التعلم، فالعالم بحاجة لأفكارك!</p>
   <p><em>Keep learning, the world needs your ideas!</em></p>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
 
 </body>
 </html>
