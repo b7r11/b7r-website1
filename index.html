@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>بحر - عالم بحر</title>
+  <title>بحر - مطور ومُحسن بيئة السيرفرات</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
@@ -40,14 +40,13 @@
       margin: 2rem auto;
     }
 
-    .container {
+    .row {
       display: flex;
+      justify-content: center;
+      gap: 2rem;
       flex-wrap: wrap;
-      justify-content: space-between;
       margin: 2rem auto;
-      gap: 1rem;
-      max-width: 1200px;
-      padding: 0 1rem;
+      max-width: 1000px;
     }
 
     .card {
@@ -55,11 +54,11 @@
       color: #666;
       padding: 2rem;
       border-radius: 15px;
-      width: 48%;
+      width: 45%;
+      min-width: 280px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       border: 1px solid #ccc;
       transition: transform 0.3s ease;
-      margin-bottom: 2rem;
     }
 
     .card:hover {
@@ -122,7 +121,7 @@
 </header>
 
 <!-- من أنا و أهدافي -->
-<div class="container">
+<div class="row">
   <div class="card" data-aos="fade-up" data-aos-delay="100">
     <h3>من أنا؟</h3>
     <p>أنا بحر، أبلغ من العمر 16 عامًا، شغوف بالبرمجة وتطوير الأنظمة، أعمل على تحسين المجتمعات الرقمية وتحقيق الأفضل دائمًا.</p>
@@ -138,8 +137,8 @@
 
 <div class="section-divider"></div>
 
-<!-- مهاراتي والسيرفرات -->
-<div class="container">
+<!-- المهارات والسيرفرات -->
+<div class="row">
   <div class="card" data-aos="fade-up" data-aos-delay="300">
     <h3>مهاراتي التقنية</h3>
     <p>أتقن JavaScript وPython وأبرمج باستخدام HTML وCSS. أستخدم مكتبات مثل <strong>discord.js</strong> و <strong>discord.py</strong> لبناء بوتات وأدوات فعالة.</p>
@@ -166,7 +165,7 @@
 </div>
 
 <!-- الخدمات -->
-<div class="container">
+<div class="row">
   <div class="card" data-aos="fade-up" data-aos-delay="600">
     <h3>بائع برمجيات وبوتات ومواقع</h3>
     <p>أقدم خدمات احترافية في تصميم المواقع، تطوير البوتات، أدوات إدارية، أنظمة مخصصة، والمزيد حسب الطلب.</p>
