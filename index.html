@@ -2,14 +2,16 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>بحر - مطور ومُحسن بيئة السيرفرات</title>
+  <title>بحر - عالم بحر</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Cairo', sans-serif;
-      background: #f4f4f4;
-      color: #333;
+      background-color: #000;
+      background-image: radial-gradient(#fff 0.8px, transparent 1px);
+      background-size: 20px 20px;
+      color: #ccc;
       margin: 0;
       padding: 0;
       text-align: center;
@@ -34,28 +36,30 @@
     .section-divider {
       width: 60%;
       height: 2px;
-      background-color: #ccc;
+      background-color: #888;
       margin: 2rem auto;
     }
 
     .container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-between;
       margin: 2rem auto;
-      gap: 2rem;
+      gap: 1rem;
       max-width: 1200px;
+      padding: 0 1rem;
     }
 
     .card {
-      background: #ffffff;
+      background: #fff;
       color: #666;
       padding: 2rem;
       border-radius: 15px;
-      width: 45%;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      width: 48%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       border: 1px solid #ccc;
       transition: transform 0.3s ease;
+      margin-bottom: 2rem;
     }
 
     .card:hover {
@@ -117,7 +121,7 @@
   <p><em>I believe that technology can improve everything when used with purpose.</em></p>
 </header>
 
-<!-- من أنا -->
+<!-- من أنا و أهدافي -->
 <div class="container">
   <div class="card" data-aos="fade-up" data-aos-delay="100">
     <h3>من أنا؟</h3>
@@ -151,7 +155,7 @@
 
 <div class="section-divider"></div>
 
-<!-- لغاتي -->
+<!-- اللغات -->
 <div class="lang-grid" data-aos="fade-up" data-aos-delay="500">
   <div class="lang-box">JavaScript</div>
   <div class="lang-box">Python</div>
@@ -161,7 +165,7 @@
   <div class="lang-box">discord.py</div>
 </div>
 
-<!-- الخدمات الإضافية -->
+<!-- الخدمات -->
 <div class="container">
   <div class="card" data-aos="fade-up" data-aos-delay="600">
     <h3>بائع برمجيات وبوتات ومواقع</h3>
